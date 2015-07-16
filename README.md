@@ -1,6 +1,6 @@
-# 70行代码阐述 Promise/A
+# 70行代码阐述 Promise-Deferred
 
-* Promise/A 核心要点就是一个事件三态之间的变化
+* Promise-Deferred 核心要点就是一个事件三态之间的变化
 * 我理解为是eventEmitter的高级封装 
 * 对应 "Pending" 、"Fulfilled" 、"Rejected" 三态的切换
 * 发布者 具有 "resolve"和"reject"两大消息通知方法，对应订阅者的 "onFulfilled"和"onRejected"
